@@ -8,6 +8,17 @@ void main(){
 class Counter extends StatelessWidget{
   const Counter({super.key});
 
+
+/// The build function returns a MaterialApp widget that has a debugShowCheckedModeBanner set to false,
+/// and a home property set to a HomeScreen widget
+/// 
+/// Args:
+///   context (BuildContext): The context of the widget.
+/// 
+/// Returns:
+///   A MaterialApp widget.
+/// 
+ 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
