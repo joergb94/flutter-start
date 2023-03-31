@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget{
     return Scaffold(
         appBar:AppBar(
            centerTitle: true,
-            title:const Text('Ray'),
+            title:const Text('Counter'),
             elevation: 10.0,
             ),
         body:Center (
