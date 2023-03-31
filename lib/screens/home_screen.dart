@@ -6,11 +6,18 @@ class HomeScreen extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
         appBar:AppBar(
-            title:Text('Ray'),
+            title:const Text('Ray'),
             elevation: 10.0,
             ),
-        body:const Center (
-        child: Text('Hola') ,
+        body:Center (
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: const [
+                Text('Please add your clicks '),
+                Text('10'),
+              ],
+        ),
         ),
     );
     
